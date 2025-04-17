@@ -6,12 +6,12 @@ A collection of word and reaction games built in Rust, featuring **Motus**, **Re
 
 ## ✨ Features
 
-- **Multiple Game Selection**: Choose from different games to play  
-- **Motus**: Word-guessing game with feedback on correct letters  
-- **Reflex**: Test your reaction time and accuracy  
+- **Multiple Game Selection**: Choose from different games to play
+- **Motus**: Word-guessing game with feedback on correct letters
+- **Reflex**: Test your reaction time and accuracy
 - **Guessing Game**: Classic number guessing game with hints
-- **Theme Selection**: Choose from different themes for the Motus game  
-- **Score Tracking**: Save your high scores to a local database  
+- **Theme Selection**: Choose from different themes for the Motus game
+- **Score Tracking**: Save your high scores to a local database
 
 ---
 
@@ -63,8 +63,8 @@ A classic number guessing game where you:
 
 Download the appropriate binary for your operating system:
 
-- Windows  
-- Linux  
+- Windows
+- Linux
 - macOS
 
 ### Build from Source
@@ -72,6 +72,36 @@ Download the appropriate binary for your operating system:
 Make sure you have Rust installed, then run:
 
 ```bash
-git clone git clone https://github.com/Basco64/hub_gaming_rust.git
+git clone https://github.com/Basco64/hub_gaming_rust.git
 cd hub_gaming_rust
 cargo build --release
+```
+
+## 🎲 Usage
+
+### Running the Application
+
+After building, run the executable:
+
+```bash
+# If built from source
+./target/release/hub_gaming
+
+# Or using cargo
+cargo run --release
+```
+
+### Coding Style
+
+- Follow the [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
+- Run `rustfmt` before committing
+- Ensure all tests pass
+- Add tests for new features
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+Linkedin: [https://www.linkedin.com/in/basco64/](https://www.linkedin.com/in/basco64/)
